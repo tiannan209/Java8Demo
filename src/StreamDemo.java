@@ -17,7 +17,7 @@ public class StreamDemo {
         // parallel stream
         Stream<Integer> parallelStream = myList.parallelStream();
 
-        Stream<Integer> highNums = parallelStream.filter(p -> p >90);
+        Stream<Integer> highNums = parallelStream.filter(p -> p >70);
         // using Lambda in forEach
         highNums.forEach(p -> System.out.println(("High Nums parallel="+p)));
 

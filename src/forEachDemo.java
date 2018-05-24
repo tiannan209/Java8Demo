@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 public class forEachDemo {
 
     public static void forEachTest(){
-        List<Integer> myList = new ArrayList<Integer>();
+        List<Integer> myList = new ArrayList<>(); //instead of using ArrayList<Integer>()
         for(int i = 0; i<10; i++){
             myList.add(i);
         }
